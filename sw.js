@@ -1,7 +1,7 @@
 const ROOT=new URL('./',self.location.href);
 const PREFIX=ROOT.pathname==='/'?'moxing-':'moxing-'+encodeURIComponent(ROOT.pathname)+'-';
-const CACHE=PREFIX+'8e128dbdcdb6';
-const FILES=["assets/bamboo-v2.webp","assets/bridge-v2.webp","assets/hero-v2.webp","assets/index-B0YXUw2S.css","assets/index-DkH7TYKQ.js","assets/snow-v2.webp","assets/v02/enemy-atlas-0.webp","assets/v02/enemy-atlas-1.webp","assets/v02/enemy-clips.json","assets/v02/hero-atlas-0.webp","assets/v02/hero-atlas-1.webp","assets/v02/hero-clips.json","assets/v03/hero-slash2-v3.webp","icon.svg","index.html","manifest.webmanifest"].map(file=>new URL(file,ROOT).href);
+const CACHE=PREFIX+'c9d1221cd544';
+const FILES=["assets/bamboo-v2.webp","assets/bridge-v2.webp","assets/hero-v2.webp","assets/index-BB0jlMpP.css","assets/index-CX1UuVl7.js","assets/snow-v2.webp","assets/v02/enemy-atlas-0.webp","assets/v02/enemy-atlas-1.webp","assets/v02/enemy-clips.json","assets/v02/hero-atlas-0.webp","assets/v02/hero-atlas-1.webp","assets/v02/hero-clips.json","assets/v03/hero-slash2-v3.webp","icon.svg","index.html","manifest.webmanifest"].map(file=>new URL(file,ROOT).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(async cache=>{
   for(const file of FILES)await cache.add(file);
 })));
