@@ -11,6 +11,12 @@
       "runtime": "/assets/v02/hero-atlas-1.webp",
       "width": 1536,
       "height": 1536
+    },
+    {
+      "name": "hero-slash2-v3",
+      "runtime": "/assets/v03/hero-slash2-v3.webp",
+      "width": 1536,
+      "height": 512
     }
   ],
   "clips": {
@@ -426,10 +432,10 @@
     ],
     "slash2": [
       {
-        "texture": "hero-atlas-1",
+        "texture": "hero-slash2-v3",
         "frame": "slash2-0",
         "x": 0,
-        "y": 768,
+        "y": 0,
         "width": 384,
         "height": 256,
         "originX": 0.5,
@@ -437,10 +443,10 @@
         "scale": 1
       },
       {
-        "texture": "hero-atlas-1",
+        "texture": "hero-slash2-v3",
         "frame": "slash2-1",
         "x": 384,
-        "y": 768,
+        "y": 0,
         "width": 384,
         "height": 256,
         "originX": 0.5,
@@ -448,10 +454,10 @@
         "scale": 1
       },
       {
-        "texture": "hero-atlas-1",
+        "texture": "hero-slash2-v3",
         "frame": "slash2-2",
         "x": 768,
-        "y": 768,
+        "y": 0,
         "width": 384,
         "height": 256,
         "originX": 0.5,
@@ -459,10 +465,54 @@
         "scale": 1
       },
       {
-        "texture": "hero-atlas-1",
+        "texture": "hero-slash2-v3",
         "frame": "slash2-3",
         "x": 1152,
-        "y": 768,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-slash2-v3",
+        "frame": "slash2-4",
+        "x": 0,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-slash2-v3",
+        "frame": "slash2-5",
+        "x": 384,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-slash2-v3",
+        "frame": "slash2-6",
+        "x": 768,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-slash2-v3",
+        "frame": "slash2-7",
+        "x": 1152,
+        "y": 256,
         "width": 384,
         "height": 256,
         "originX": 0.5,
