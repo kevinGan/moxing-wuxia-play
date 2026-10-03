@@ -1,0 +1,542 @@
+{
+  "sheets": [
+    {
+      "name": "hero-atlas-0",
+      "runtime": "/assets/v02/hero-atlas-0.webp",
+      "width": 1536,
+      "height": 1536
+    },
+    {
+      "name": "hero-atlas-1",
+      "runtime": "/assets/v02/hero-atlas-1.webp",
+      "width": 1536,
+      "height": 1536
+    }
+  ],
+  "clips": {
+    "run": [
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-0",
+        "x": 0,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-1",
+        "x": 384,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-2",
+        "x": 768,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-3",
+        "x": 1152,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-4",
+        "x": 0,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-5",
+        "x": 384,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-6",
+        "x": 768,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "run-7",
+        "x": 1152,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "slash": [
+      {
+        "texture": "hero-atlas-0",
+        "frame": "slash-0",
+        "x": 0,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "slash-1",
+        "x": 384,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "slash-2",
+        "x": 768,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "slash-3",
+        "x": 1152,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "slash-4",
+        "x": 0,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "slash-5",
+        "x": 384,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "idle": [
+      {
+        "texture": "hero-atlas-0",
+        "frame": "idle-0",
+        "x": 768,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "idle-1",
+        "x": 1152,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "idle-2",
+        "x": 0,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "idle-3",
+        "x": 384,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "dodge": [
+      {
+        "texture": "hero-atlas-0",
+        "frame": "dodge-0",
+        "x": 768,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "dodge-1",
+        "x": 1152,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "dodge-2",
+        "x": 0,
+        "y": 1280,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "dodge-3",
+        "x": 384,
+        "y": 1280,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "jump": [
+      {
+        "texture": "hero-atlas-0",
+        "frame": "jump-0",
+        "x": 768,
+        "y": 1280,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-0",
+        "frame": "jump-1",
+        "x": 1152,
+        "y": 1280,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "jump-2",
+        "x": 0,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "jump-3",
+        "x": 384,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "hurt": [
+      {
+        "texture": "hero-atlas-1",
+        "frame": "hurt-0",
+        "x": 768,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "hurt-1",
+        "x": 1152,
+        "y": 0,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "hurt-2",
+        "x": 0,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "hurt-3",
+        "x": 384,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "fall": [
+      {
+        "texture": "hero-atlas-1",
+        "frame": "fall-0",
+        "x": 768,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "fall-1",
+        "x": 1152,
+        "y": 256,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "fall-2",
+        "x": 0,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "fall-3",
+        "x": 384,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "fall-4",
+        "x": 768,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "fall-5",
+        "x": 1152,
+        "y": 512,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "slash2": [
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash2-0",
+        "x": 0,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash2-1",
+        "x": 384,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash2-2",
+        "x": 768,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash2-3",
+        "x": 1152,
+        "y": 768,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ],
+    "slash3": [
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash3-0",
+        "x": 0,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash3-1",
+        "x": 384,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash3-2",
+        "x": 768,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash3-3",
+        "x": 1152,
+        "y": 1024,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash3-4",
+        "x": 0,
+        "y": 1280,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      },
+      {
+        "texture": "hero-atlas-1",
+        "frame": "slash3-5",
+        "x": 384,
+        "y": 1280,
+        "width": 384,
+        "height": 256,
+        "originX": 0.5,
+        "originY": 0.921875,
+        "scale": 1
+      }
+    ]
+  }
+}
